@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.bookshop.entity.Role</class>
+        <class>com.bookshop.entity.User_group</class>
+        <class>com.bookshop.entity.Category</class>
+        <class>com.bookshop.entity.Publisher</class>
+        <class>com.bookshop.entity.User</class>
+        <class>com.bookshop.entity.Order</class>
+        <class>com.bookshop.entity.Book</class>
+        <class>com.bookshop.entity.Order_detail</class>
+        <class>com.bookshop.entity.Writer</class>
+        <class>com.bookshop.entity.Comment</class>
+        <class>com.bookshop.entity.Province</class>
+        <class>com.bookshop.entity.District</class>
+        <class>com.bookshop.entity.Ward</class>
+    </persistence-unit>
+</persistence>
+
